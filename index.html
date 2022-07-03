@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Jogo da Forca Alura</title>
+</head>
+<body>
+    <header>
+        <img src="images/logoAlura.svg" alt="Logo da Alura" class="logo">
+    
+    </header>
+
+    <main>
+        <div class="game display">
+            <canvas width="1100" height="540" class="canvas"></canvas>
+            <div class="gameButtons">
+                <button class="newGame">Novo Jogo</button>
+                <button  class="stopGame">Desistir</button>
+            </div>
+        </div>
+  
+
+        <div class="buttons ">
+            <button class="startGame">Começar a jogar</button>
+            <div>
+                <button  class="newWord">Adiciconar nova palavra</button>
+            </div>
+        </div>
+
+        <div class="display page2">
+            <textarea class="input" placeholder="Digite uma palavra ou frase"></textarea>
+    
+            <p class="aviso">
+                <img src="images/bi_exclamation.svg" alt="Ponto de exclamação circular">
+                Máx. de 8 letras.
+            </p>
+            <div>
+                <button class="save">Salvar e começar</button>
+                <button  class="cancel">Cancelar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
